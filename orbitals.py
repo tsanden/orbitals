@@ -125,7 +125,7 @@ def plot_orbital(n=[0], l=[0], m=[0], sample=1, radius=10, sample_to_values=1000
             theta_c[k] = [float(i[1]) for i in elem_mat]
 
         figs, axs = plt.subplots(rows, cols, subplot_kw=dict(projection='polar'), figsize=(10,10))
-       
+
         count = 0
         for i in range(rows):
             for j in range(cols):
